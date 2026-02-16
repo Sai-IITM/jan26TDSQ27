@@ -1,0 +1,4 @@
+2026-02-16 16:38:13,324 - HTTP Request: POST https://api.openai.com/v1/moderations "HTTP/1.1 401 Unauthorized"
+2026-02-16 16:38:13,329 - Validation error for test: Error code: 401 - {'error': {'message': 'Your authentication token is not from a valid issuer.', 'type': 'invalid_request_error', 'code': 'invalid_issuer', 'param': None}, 'status': 401}
+2026-02-16 16:41:08,118 - HTTP Request: POST https://aipipe.org/openai/v1/moderations "HTTP/1.1 400 Bad Request"
+2026-02-16 16:41:08,121 - Validation error for test: Error code: 400 - {'message': 'Model undefined pricing unknown'}
